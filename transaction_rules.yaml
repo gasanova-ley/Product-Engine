@@ -1,38 +1,36 @@
-en:
-    languageName: English
-    weight: 2
-    menu:
-      main:
-        - identifier: about
-          name: About
-          url: /about/
-          weight: 1
-        - identifier: team
-          name: Team
-          url: /team/
-          weight: 2
-        - identifier: events
-          name: Events
-          url: /events/
-          weight: 3
-        - identifier: media
-          name: Media
-          url: /media/
-          weight: 4
-  ru:
-    languageName: Русский
-    weight: 1
-    menu:
-      main:
-        - identifier: about
-          name: "О проекте"
-          url: /about/
-          weight: 1
-        - identifier: team
-          name: Участники
-          url: /team/
-          weight: 2
-        - identifier: events
-          name: События
-          url: /events/
-          weight: 3
+---
+#transaction rules
+rulespackcode: ANONIM_RULES
+    - rule_code: reversal
+        settings:
+             trans_code: REFUND
+             date_start: "2021-11-17 15:30:30"
+             date_end: null
+             filtr_type: full
+             #тип фильтрации транзакции
+             backet_type: OWN
+    - rule_code: atf_paym
+        settings:
+             trans_code: ATF_PAYMENT
+             date_start: "2021-11-17 15:30:30"
+             date_end: null
+             filtr_type: full
+             backet_type: OWN
+...
+ --- 
+  #тип фильтрации транзакци:
+  types:
+  - full
+  # точное совпадение, указывается конкретный тип транзакции
+  - any
+  #тип транзакции не важен, отбираются все транзации 
+  - full from list
+  #точное совпадение, указывается имя списка набора транзакций
+  ...
+    
+    --- 
+  #дата окончания работы правила:
+  date_end:
+  - forever
+  # ставится по умолчанию, если не указана, работает по принципу - до очередного изменения
+  ...
