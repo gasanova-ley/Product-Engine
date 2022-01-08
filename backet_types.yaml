@@ -1,1 +1,25 @@
-
+---
+# backet_types
+- backet_type_code: OWN
+        settings:
+             sub_buc_of: null
+              # входит в тип бакета -указываем код бакета
+             include_buc:
+              # включает в себя типы бакетов -указываем коды бакетов через точку с запятой
+             in_use: for_online
+- backet_type_code: LOAN
+        settings:
+             sub_buc_of: null
+              # входит в тип бакета -указываем код бакета
+             include_buc:
+              # включает в себя типы бакетов -указываем коды бакетов через точку с запятой
+             in_use: for_online
+- backet_type_code: OVERDUE
+        settings:
+             sub_buc_of: null
+              # входит в тип бакета -указываем код бакета
+             include_buc:
+              # включает в себя типы бакетов -указываем коды бакетов через точку с запятой
+             in_use: for_offline             
+...
+in_use: for_online
