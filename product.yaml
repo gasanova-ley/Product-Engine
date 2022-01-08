@@ -5,6 +5,8 @@ code: Anonim
 # код продукта
 transaction rules: ANONIM_RULES
 # код пакета правил обработки транзакций
+как сослаться на другой файл и нужно ли? напишу пока условно так
+transaction rules path:
 limits: LIM_CODE
 #код набора лимитов
 Tarrif Plan: TARIFF_PLAN_CODE
