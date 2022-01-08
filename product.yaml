@@ -18,4 +18,9 @@ Product Mechanic: MECHANIC_CODE
 Product Mechanic path: https://github.com/gasanova-ley/Product-Engine/blob/main/product_mechanics.yaml
 FI: FI_CODE
 # код финансового института
+Entry Rules: ENTRY_RULE_PACK_CODE
+# правила формирования проводок
+Entry Rules path: https://github.com/gasanova-ley/Product-Engine/blob/main/entry_rules.yaml
+FI: FI_CODE
+# код финансового института
   
