@@ -17,6 +17,10 @@ rulespackcode: ANONIM_RULES
              filtr_type: full
              backet_type: OWN
 ...
+--- 
+  #тип   транзакции
+  trans_code: https://github.com/gasanova-ley/Product-Engine/blob/main/trans_types.yaml
+...
  --- 
   #тип фильтрации транзакци:
   types:
