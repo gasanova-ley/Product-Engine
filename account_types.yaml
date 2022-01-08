@@ -1,1 +1,39 @@
+---
+#account types
+- account_type_code: T
+        settings:
+             balance_acc_mask: 40817
+             Syntetic_number:
+             analytic_accounts: yes
+             actv_pass:  passive
+             #признак счета - активный или пассивный
+ - account_type_code: D
+        settings:
+             balance_acc_mask: 30233
+             Syntetic_number:
+             analytic_accounts: yes
+             actv_pass:  active
+             #признак счета - активный или пассивный
+...
 
+--- 
+  #ведение аналитических счетов:
+ analytic_accounts:
+  -  yes
+  # ведутся аналитические счета
+  - no
+  # не ведутся аналитические счета             
+  ...   
+    --- 
+   # признак аквтиности-пассивности счета:
+   actv_pass:  
+  -  passive
+  # Пассивный счет. Проверка в конце дня на дебетовое сальдо
+  - active
+  # Активный счет. Проверка в конце дня на кредитовое сальдо
+  ...
+ 
+© 2022 GitHub, Inc.
+Terms
+Privacy
+S
