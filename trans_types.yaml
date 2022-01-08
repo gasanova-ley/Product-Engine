@@ -6,12 +6,9 @@
              to: CARD
              base_backet:  OWN
              #тип бакета, по которому пройдет транзакция, если бакет не задан в правиле обработки транзакции
-             backet_type: OWN
-    - rule_code: atf_paym
+ - trans_type_code: ATF_PAYMENT
         settings:
-             trans_code: ATF_PAYMENT
-             date_start: "2021-11-17 15:30:30"
-             date_end: null
-             filtr_type: full
-             backet_type: OWN
+             from: CARD
+             to: ACCOUNT
+             base_backet:  OWN
 ...
