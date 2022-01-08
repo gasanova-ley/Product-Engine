@@ -6,13 +6,16 @@ code: Anonim
 transaction rules: ANONIM_RULES
 # код пакета правил обработки транзакций
 как сослаться на другой файл и нужно ли? напишу пока условно так
-transaction rules path:
+transaction rules path: https://github.com/gasanova-ley/Product-Engine/blob/main/transaction_rules.yaml
 limits: LIM_CODE
 #код набора лимитов
-Tarrif Plan: TARIFF_PLAN_CODE
+limits path: https://github.com/gasanova-ley/Product-Engine/blob/main/limits.yaml
+Tarriff Plan: TARIFF_PLAN_CODE
 # код тарифного плана
+Tarriff Plan path: https://github.com/gasanova-ley/Product-Engine/blob/main/tariff_plans.yaml
 Product Mechanic: MECHANIC_CODE
 #логика работы продукта- бакеты (онлайн и оффлайн) и правила перехода средств между ними
+Product Mechanic path: https://github.com/gasanova-ley/Product-Engine/blob/main/tariff_plans.yaml
 FI: FI_CODE
 # код финансового института
   
