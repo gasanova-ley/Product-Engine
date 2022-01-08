@@ -21,9 +21,13 @@ rulespackcode: ANONIM_RULES
   #тип   транзакции
   trans_code: https://github.com/gasanova-ley/Product-Engine/blob/main/trans_types.yaml
 ...
+--- 
+  #тип   бакета
+  backet_type: https://github.com/gasanova-ley/Product-Engine/blob/main/backet_types.yaml
+...
  --- 
   #тип фильтрации транзакци:
-  types:
+  filtr_type:
   - full
   # точное совпадение, указывается конкретный тип транзакции
   - any
