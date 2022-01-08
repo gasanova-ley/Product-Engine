@@ -9,7 +9,7 @@ transaction rules: ANONIM_RULES
 transaction rules path: https://github.com/gasanova-ley/Product-Engine/blob/main/transaction_rules.yaml
 limits: LIM_CODE
 #код набора лимитов
-limits path: https://github.com/gasanova-ley/Product-Engine/blob/main/limits.yaml
+limits path: 
 Tarriff Plan: TARIFF_PLAN_CODE
 # код тарифного плана
 Tarriff Plan path: https://github.com/gasanova-ley/Product-Engine/blob/main/tariff_plans.yaml
