@@ -3,7 +3,7 @@
 rulespackcode: ANONIM_RULES
     - rule_code: reversal
         settings:
-             trans_code: REFUND
+             trans_code: REVERSE
              date_start: "2021-11-17 15:30:30"
              date_end: null
              filtr_type: full
