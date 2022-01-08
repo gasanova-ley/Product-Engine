@@ -15,7 +15,7 @@ Tarriff Plan: TARIFF_PLAN_CODE
 Tarriff Plan path: https://github.com/gasanova-ley/Product-Engine/blob/main/tariff_plans.yaml
 Product Mechanic: MECHANIC_CODE
 #логика работы продукта- бакеты (онлайн и оффлайн) и правила перехода средств между ними
-Product Mechanic path: https://github.com/gasanova-ley/Product-Engine/blob/main/tariff_plans.yaml
+Product Mechanic path: https://github.com/gasanova-ley/Product-Engine/blob/main/product_mechanics.yaml
 FI: FI_CODE
 # код финансового института
   
